@@ -32,7 +32,7 @@ feature calt {
   sub \CR.00 \backslash' by \backslash_backslash;
   sub \CR.00 \bar' by \less_bar;
   sub \CR.00 \colon' by \colon_colon;
-  sub \CR.00 \equal' by \slash_equal;
+  #sub \CR.00 \equal' by \slash_equal;
   sub \CR.00 \exclam' by \exclam_exclam;
   sub \CR.00 \hyphen' by \less_hyphen;
   sub \CR.01 \asterisk' by \less_asterisk;
@@ -40,7 +40,7 @@ feature calt {
   sub \CR.01 \greater' by \less_greater;
   sub \CR.01 \hyphen' by \greater_hyphen;
   sub \CR.01 \period' by \period_period;
-  sub \CR.01 \plus' by \plus_plus;
+  #sub \CR.01 \plus' by \plus_plus;
   sub \CR.02 \equal' by \equal_equal;
   sub \CR.02 \greater' by \hyphen_greater;
   sub \CR.03 \greater' by \greater_greater;
@@ -50,7 +50,7 @@ feature calt {
   sub \CR.06 \greater' by \bar_greater;
   sub \CR.07 \greater' by \asterisk_greater;
   sub \asterisk' \asterisk \asterisk by \CR.00;
-  sub \equal' \equal \equal by \CR.01;
+  #sub \equal' \equal \equal by \CR.01;
   sub \equal' \equal \greater by \CR.05;
   sub \equal' \less \less by \CR.02;
   sub \greater' \greater \equal by \CR.00;
@@ -69,7 +69,7 @@ feature calt {
   sub \bar' \bar by \CR.01;
   sub \bar' \greater by \CR.06;
   sub \colon' \colon by \CR.00;
-  sub \equal' \equal by \CR.02;
+  #sub \equal' \equal by \CR.02;
   sub \equal' \greater by \CR.05;
   sub \exclam' \exclam by \CR.00;
   sub \greater' \greater by \CR.03;
@@ -82,8 +82,6 @@ feature calt {
   sub \less' \hyphen by \CR.00;
   sub \less' \less by \CR.03;
   sub \period' \period by \CR.01;
-  sub \plus' \plus by \CR.01;
-  sub \slash' \equal by \CR.00;
+  #sub \plus' \plus by \CR.01;
+  #sub \slash' \equal by \CR.00;
 } calt;
-
-
